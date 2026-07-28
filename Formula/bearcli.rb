@@ -8,8 +8,8 @@ class Bearcli < Formula
   depends_on "python@3.13"
 
   def install
-    system Formula["python@3.13"].opt_bin/"python3.13", "-m", "venv", libexec
-    system libexec/"bin/pip", "install", "--no-compile", buildpath.to_s
+    system Formula["python@3.13"].opt_bin/"python3.13", "-m", "venv", "--clear", libexec
+    system libexec/"bin/pip", "install", "--no-compile", "--ignore-installed", buildpath.to_s
     bin.install_symlink libexec/"bin/bearcli"
   end
 
