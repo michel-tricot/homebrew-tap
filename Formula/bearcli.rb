@@ -1,8 +1,8 @@
 class Bearcli < Formula
   desc "The missing open-source CLI for Bear notes"
   homepage "https://michel-tricot.github.io/bearcli/"
-  url "https://files.pythonhosted.org/packages/37/43/a1387f665d87b9564623c56431ed7290e978a76f4564a676c70d9d64cd4c/bearcli-1.7.3.tar.gz"
-  sha256 "c5089328c83796e0c5106732b2535213a95c4133487cd37d713ac95eb14c0fc1"
+  url "https://files.pythonhosted.org/packages/74/4a/7ff2885dbf94c2606fec200dfa3670a98735a838ad06ae33231ad2f98b8a/bearcli-1.7.4.tar.gz"
+  sha256 "ea5593594605b7a44b2a7e3ba8fd399f472f34723e625d8ba3fe9788cce9eaca"
   license "MIT"
 
   depends_on "python@3.13"
