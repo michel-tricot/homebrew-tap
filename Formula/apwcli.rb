@@ -1,8 +1,8 @@
 class Apwcli < Formula
   desc "Apple Passwords (iCloud Keychain) from the terminal"
   homepage "https://michel-tricot.github.io/apwcli/"
-  url "https://files.pythonhosted.org/packages/27/37/ee3c2844b96480ee6252b3ad5de4771ea2bc3c792de96ecdc11b3734d506/apwcli-0.1.1.tar.gz"
-  sha256 "0e7eaef77ded05f9722b165eef8b680b4155697642f209dc8a8be1f6dff21f38"
+  url "https://files.pythonhosted.org/packages/d4/94/d455409a79cfd8c66779dec1cd70eee8c6ddd93316f8a34e80459f7e1bc7/apwcli-0.1.2.tar.gz"
+  sha256 "ed5283bf8b8498b44b679c0c080294d92b74afd7af89e0ff5b52ee4c00b522e2"
   license "MIT"
 
   depends_on :macos
